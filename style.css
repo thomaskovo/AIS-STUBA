@@ -1633,7 +1633,7 @@ td img[src*="bullet-kriz-green"] {
 @media screen and (min-width: 816px) {
 	
 	.postTable #tmtab_1 tr td:nth-child(8) {
-		background:white;
+		background:#f7f7f7;
 	}
 @media screen and (max-width: 815px) {
 	
