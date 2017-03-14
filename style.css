@@ -1876,6 +1876,61 @@ td img[src*="bullet-kriz-green"] {
 		display: none;
 	}
 }
+
+@media screen and (max-width: 540px) {
+	.open {
+    height: calc(100% - 80px)!important;
+   
+}
+	#newMessage{z-index:1000;
+											width:100%;
+										}
+	.NMopen {
+    bottom: calc(100vh - 50px)!important;
+   z-index:2000!important;
+    height: 50px!important;
+    width: 100%!important;
+}
+	.NMopen a {line-height:50px!important;
+											font-size:15px!important;
+										}
+	.postTable > tbody .odsazena:nth-child(1) tr:nth-child(2) .odsazena{
+											text-align:center;
+										}
+	.postTable #tmtab_1 tr {
+    height: 130px;
+    
+}
+	.postTable #tmtab_1 tr td:nth-child(8) {
+		width:99%;									
+										
+										}
+	.postTable #tmtab_1 tr td:nth-child(8) a{
+		width:33%;									
+		display:inline-block;									
+										}
+	.funLabel{
+		vertical-align: 14px;
+		display:inline-block;									
+										}
+	.posta .container > table:first-of-type{
+		width:100%;									
+	}
+	.posta .container > table:first-of-type td:nth-child(2n+3){
+		display:block;
+		width:calc(100% - 15px);
+										}
+	.posta .container > table:first-of-type td:nth-child(2n+3){
+		line-height:35px;
+		padding-left:0;
+										}
+	.posta .container > table:first-of-type td:nth-child(2n+3) a,.posta .container > table:first-of-type td:nth-child(2n+3) b{
+		padding: 0;
+    display: block;
+    padding-left: 5%;
+										}
+}
+
 @media screen and (max-width: 470px) {
 img[src*="158253"],img[src*="170586"],img[src*="180010"],img[src*="148955"],img[src*="149763"],img[src*="183823"]{height:35px;}
 	.languagues {
