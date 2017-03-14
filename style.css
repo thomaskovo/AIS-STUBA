@@ -1440,14 +1440,14 @@ td img[src*="bullet-kriz-green"] {
 	
     box-sizing: border-box;
     padding: 20px;
-    background-size: 70%;
+    background-size: 65%;
     background-position: center;
     background-repeat: no-repeat;
 	height: 38px;
 	
 }
 .postTable #tmtab_1 tr td:nth-child(8) img:hover {
-	padding: 5px;
+	background-size: 90%;
 }
 
 .posta .container br{
