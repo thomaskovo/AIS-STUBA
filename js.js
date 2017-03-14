@@ -68,7 +68,7 @@ $('#NM').addClass('NMopen').removeClass('NMclose');
 }
 else {$('#newMessage').addClass('close').removeClass('open');
 $('#NM').addClass('NMclose').removeClass('NMopen');
-      $('#NM').unbind('mouseenter mouseleave')
+      $('#NM').unbind('mouseenter mouseleave');
 }
 })
 
