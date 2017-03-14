@@ -1638,6 +1638,7 @@ td img[src*="bullet-kriz-green"] {
 @media screen and (max-width: 815px) {
 	
 	.postTable #tmtab_1 tr td:nth-child(8) {
+		background:white;
 	}
 	.postTable #tmtab_1 tr: hover td:nth-child(8) {
 		background: #e6e6e6;
