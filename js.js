@@ -80,7 +80,7 @@ $('#NM').addClass('NMclose').removeClass('NMopen');
 })
 
 
-
+/*
 
 $("a[href='nova_zprava.pl']").parent().parent().attr('id', 'NM').click(function() {
 if($('#newMessage').attr('class')=='close'){
@@ -90,7 +90,7 @@ $('#NM').addClass('NMopen').removeClass('NMclose');
 else {$('#newMessage').addClass('close').removeClass('open');
 $('#NM').addClass('NMclose').removeClass('NMopen');
 }
-})
+})*/
 
 
 $('#calTable').load('https://is.stuba.sk/auth/student/moje_studium.pl a[href*="/auth/katalog/rozvrhy_view.pl"]');
