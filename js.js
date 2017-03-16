@@ -66,7 +66,7 @@ $("a[href*='nova_zprava.pl?lang']").parent().parent().attr('id', 'NM').click(fun
     setTimeout(function() {
   ('#NM').mouseout();
         console.log('hide');
-}, delayMillis);
+}, 1000);
     
    
 if($('#newMessage').attr('class')=='close'){
