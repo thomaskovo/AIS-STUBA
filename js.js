@@ -62,9 +62,9 @@ else $(this).closest('td[valign="top"]').addClass('openSide');
 })
 
 
-$("a[href='nova_zprava.pl']").parent().parent().attr('id', 'NM')
+$("a[href='nova_zprava.pl']").parent().parent().attr('id', 'NM');
 
-$('#NM').click(function(){
+$("a[href='nova_zprava.pl']").parent().parent().click(function(){
     alert('NM');
 }
 )
