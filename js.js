@@ -76,7 +76,7 @@ $('#NM').addClass('NMclose').removeClass('NMopen');
       
       
       setTimeout(function() {
-  $("a[href='nova_zprava.pl']").parent().parent().mouseleave();
+  $("a[href='nova_zprava.pl']").parent().parent().mouseout();
           console.log('leave')
 }, 1000);
       
