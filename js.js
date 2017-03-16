@@ -73,7 +73,12 @@ $('#NM').addClass('NMopen').removeClass('NMclose');
 }
 else {$('#newMessage').addClass('close').removeClass('open');
 $('#NM').addClass('NMclose').removeClass('NMopen');
-      alert('NM').delay(800);
+      
+      
+      setTimeout(function() {
+  alert('NM')
+}, 1000);
+      
 } 
     
     
