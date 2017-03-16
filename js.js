@@ -65,20 +65,25 @@ else $(this).closest('td[valign="top"]').addClass('openSide');
 $("a[href='nova_zprava.pl']").parent().parent().attr('id', 'NM');
 
 $("a[href='nova_zprava.pl']").parent().parent().click(function(){
-    alert('NM');
+   
+    
+   if($('#newMessage').attr('class')=='close'){
+$('#newMessage').addClass('open').removeClass('close');
+$('#NM').addClass('NMopen').removeClass('NMclose');
+}
+else {$('#newMessage').addClass('close').removeClass('open');
+$('#NM').addClass('NMclose').removeClass('NMopen');
+      alert('NM')
+} 
+    
+    
 }
 )
 /*
 
 
 $("a[href='nova_zprava.pl']").parent().parent().attr('id', 'NM').click(function() {
-if($('#newMessage').attr('class')=='close'){
-$('#newMessage').addClass('open').removeClass('close');
-$('#NM').addClass('NMopen').removeClass('NMclose');
-}
-else {$('#newMessage').addClass('close').removeClass('open');
-$('#NM').addClass('NMclose').removeClass('NMopen');
-}
+
 })*/
 
 
