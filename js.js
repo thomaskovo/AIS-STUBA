@@ -62,7 +62,8 @@ else $(this).closest('td[valign="top"]').addClass('openSide');
 })
 
 $("a[href*='nova_zprava.pl?lang']").parent().parent().attr('id', 'NM').click(function() {
-     ("a[href*='nova_zprava.pl?lang']").parent().parent().attr('id', 'NM').delay(1000).mouseout();
+     ("a[href*='nova_zprava.pl?lang']").parent().parent().attr('id', 'NM').delay(100).mouseout();
+    
    
 if($('#newMessage').attr('class')=='close'){
 $('#newMessage').addClass('open').removeClass('close');
