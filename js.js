@@ -67,11 +67,12 @@ $("a[href*='nova_zprava.pl?lang']").parent().parent().attr('id', 'NM').click(fun
   ('#NM').mouseout();
         console.log('hide');
 }, 1000);
-    alert('f');
+    
    
 if($('#newMessage').attr('class')=='close'){
 $('#newMessage').addClass('open').removeClass('close');
 $('#NM').addClass('NMopen').removeClass('NMclose');
+    alert('f');
 }
 else {$('#newMessage').addClass('close').removeClass('open');
 $('#NM').addClass('NMclose').removeClass('NMopen');
