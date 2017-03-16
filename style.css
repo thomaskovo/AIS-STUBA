@@ -784,10 +784,10 @@ padding:0;
 	background: #f3f3f3;
 }
 .posta .container > table:first-of-type td:nth-child(2n-1) a {
-	color: #0087ca;
+	color: transparent;
 }
 .posta .container > table:first-of-type td:nth-child(2n-1):hover a {
-	color: #0087ca;
+	color: white;
 	-webkit-transition: all .6s ease;
 	transition: all .6s ease;
 }
