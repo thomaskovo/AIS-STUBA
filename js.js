@@ -62,7 +62,7 @@ else $(this).closest('td[valign="top"]').addClass('openSide');
 })
 
 
-
+$("a[href='nova_zprava.pl']").parent().parent().attr('id', 'NM')
 /*
 
 
