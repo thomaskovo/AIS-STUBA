@@ -1440,14 +1440,14 @@ td img[src*="bullet-kriz-green"] {
 	
     box-sizing: border-box;
     padding: 20px;
-    background-size: 65%;
+    background-size: 55%;
     background-position: center;
     background-repeat: no-repeat;
 	height: 38px;
 	
 }
 .postTable #tmtab_1 tr td:nth-child(8) img:hover {
-	background-size: 90%;
+	background-size: 70%;
 }
 
 .posta .container br{
@@ -1914,7 +1914,9 @@ td img[src*="bullet-kriz-green"] {
     
 }
 	.postTable #tmtab_1 tr td:nth-child(8) {
-		width:99%;									
+		width: calc(100% - 10px);
+    padding: 0 5px;
+    left: 0;								
 										
 										}
 	.postTable #tmtab_1 tr td:nth-child(8) a{
