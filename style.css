@@ -1847,7 +1847,7 @@ td img[src*="bullet-kriz-green"] {
 	}
 	.list .container table:first-of-type:after,.listNext .container table:first-of-type:after {
 		opacity: 1;
-		content: "? Menu";
+		content: "☰ Menu";
 		padding-left: 5%;
 		position: absolute;
                 z-index:50;
