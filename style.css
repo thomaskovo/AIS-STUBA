@@ -1895,6 +1895,7 @@ td img[src*="bullet-kriz-green"] {
 }
 	#newMessage{z-index:1000;
 											width:100%;
+        border-top: 50px solid #404040;
 										}
 	.NMopen {
     bottom: calc(100vh - 50px)!important;
