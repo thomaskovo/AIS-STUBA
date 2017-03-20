@@ -1898,7 +1898,7 @@ td img[src*="bullet-kriz-green"] {
         border-top: 50px solid #404040;
 										}
 	.NMopen {
-    bottom: calc(100vh - 50px)!important;
+    top:0;
    z-index:2000!important;
     height: 50px!important;
     width: 100%!important;
