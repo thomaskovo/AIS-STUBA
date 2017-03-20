@@ -1890,10 +1890,13 @@ td img[src*="bullet-kriz-green"] {
 
 @media screen and (max-width: 540px) {
 	.open {
-    height: calc(100% - 80px)!important;
+    
    top: 0;
 }
-	#newMessage{z-index:1000;
+    .close {
+    top: 100%;
+        }
+	#newMessage{z-index:1000;height: 100vh!important;
 											width:100%;
         border-top: 50px solid #404040;
 										}
