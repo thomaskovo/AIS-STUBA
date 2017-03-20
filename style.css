@@ -250,7 +250,7 @@ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 	z-index:999;
 }
 #NM:hover a{
-	color:white!important;
+	/*color:white!important;*/
 }
 
 #NM a{
@@ -780,7 +780,7 @@ padding:0;
 	-webkit-transition: all .6s ease;
 	transition: all .6s ease;
 }
-.posta .container > table:first-of-type td:nth-child(2n-1):hover {
+.posta .container > table:first-of-type td:nth-child(2n+3):hover {
 	background: #f3f3f3;
 }
 .posta .container > table:first-of-type td:nth-child(2n-1) a {
