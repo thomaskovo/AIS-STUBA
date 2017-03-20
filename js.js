@@ -64,14 +64,14 @@ else $(this).closest('td[valign="top"]').addClass('openSide');
 
 $("a[href='nova_zprava.pl']").parent().parent().attr('id', 'NM');
     
-    $('.open').on( 'mousewheel DOMMouseScroll', function (e) { 
+   /* $('.open').on( 'mousewheel DOMMouseScroll', function (e) { 
   
   var e0 = e.originalEvent;
   var delta = e0.wheelDelta || -e0.detail;
 
   this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
   e.preventDefault();  
-});
+});*/
     
     
     
@@ -82,11 +82,11 @@ $("a[href='nova_zprava.pl']").parent().parent().click(function(){
    if($('#newMessage').attr('class')=='close'){
 $('#newMessage').addClass('open').removeClass('close');
 $('#NM').addClass('NMopen').removeClass('NMclose');
-       
+       $('body').css({'overflow-y':'hidden'})
 }
 else {$('#newMessage').addClass('close').removeClass('open');
 $('#NM').addClass('NMclose').removeClass('NMopen');
-      
+      $('body').css({'overflow-y':'scroll'})
       
      
       
