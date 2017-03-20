@@ -1891,7 +1891,7 @@ td img[src*="bullet-kriz-green"] {
 @media screen and (max-width: 540px) {
 	.open {
     height: calc(100% - 80px)!important;
-   
+   top: 0;
 }
 	#newMessage{z-index:1000;
 											width:100%;
