@@ -70,15 +70,13 @@ $("a[href='nova_zprava.pl']").parent().parent().click(function(){
    if($('#newMessage').attr('class')=='close'){
 $('#newMessage').addClass('open').removeClass('close');
 $('#NM').addClass('NMopen').removeClass('NMclose');
+       $('body').css({'pointer-events:none'});
 }
 else {$('#newMessage').addClass('close').removeClass('open');
 $('#NM').addClass('NMclose').removeClass('NMopen');
+      $('body').css({'pointer-events:all'});
       
-      
-      setTimeout(function() {
-  /*$("a[href='nova_zprava.pl']").parent().parent();*/
-          console.log('leave')
-}, 1000);
+     
       
 } 
     
