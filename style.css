@@ -1968,6 +1968,7 @@ img[src*="158253"],img[src*="170586"],img[src*="180010"],img[src*="148955"],img[
 }
 @media screen and (max-width: 950px) {
     .posta .container > table:first-of-type td:first-child, .posta .container > table:first-of-type td:first-child:hover {
+        top: inherit;
 		bottom: 60px;
 	}
 	.open{bottom:30px!important;
