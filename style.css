@@ -343,7 +343,9 @@ display:none;
 #newMessage table[width="750"] #add_attch input {
 	display:inline-block;
 	visibility:visible!important;
-	width:25px;
+	width:25px!important;
+    position: relative;
+    z-index: 1000;
 	padding:0;
 	height:25px;
 	box-sizing:border-box;
