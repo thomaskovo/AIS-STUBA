@@ -1973,7 +1973,7 @@ img[src*="158253"],img[src*="170586"],img[src*="180010"],img[src*="148955"],img[
 	.open{bottom:30px!important;
 										}
 	.NMopen{
-											bottom: 430px!important;}
+											bottom: 430px}
 	.postTable #tmtab_1 tr td:nth-child(6) {
 		display: none;
 	}
