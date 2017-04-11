@@ -1910,7 +1910,7 @@ td img[src*="bullet-kriz-green"] {
 											width:100%;
 										}
 	.NMopen {
-    bottom: calc(100vh - 50px)!important;
+    /*bottom: calc(100vh - 50px)!important;*/
    z-index:2000!important;
     height: 50px!important;
     width: 100%!important;
