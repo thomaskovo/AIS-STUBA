@@ -1857,7 +1857,7 @@ td img[src*="bullet-kriz-green"] {
         border-top: 50px solid #404040;
 										}
 	.NMopen {
-    top:0;
+    top:0!important;
    z-index:2000!important;
     height: 50px!important;
     width: 100%!important;
@@ -1909,11 +1909,11 @@ td img[src*="bullet-kriz-green"] {
 	#newMessage{z-index:1000;
 											width:100%;
 										}
-	.NMopen {
-    /*bottom: calc(100vh - 50px)!important;*/
+	/*.NMopen {
+    bottom: calc(100vh - 50px)!important;
    z-index:2000!important;
     height: 50px!important;
-    width: 100%!important;
+    width: 100%!important;*/
 }
 	.NMopen a {line-height:50px!important;
 											font-size:15px!important;
